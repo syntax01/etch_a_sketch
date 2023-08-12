@@ -7,11 +7,11 @@ html, body, #container {
 #container {
     display: flex;
     flex-direction: column;
+    background-color: gainsboro;
 }
 
 .row {
     flex: 1;
-    background-color: gainsboro;
     display: flex;
 }
 
@@ -20,6 +20,8 @@ html, body, #container {
     border: solid 1px lightgray;
 }
 
+/*
 .hover {
     background-color: white;
 }
+*/
