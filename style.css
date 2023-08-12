@@ -1,0 +1,25 @@
+html, body, #container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    border: solid 1px lightgray;
+}
+
+.hover {
+    background-color: white;
+}
